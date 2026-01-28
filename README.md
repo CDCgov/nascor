@@ -2,11 +2,11 @@
 
 ## Overview
 
-Tools for parsing and manipulating age ranges
+nascor parses and manipulating age ranges. Read the [docs](https://cdcgov.github.io/nascor/).
 
 ## Getting started
 
-- This is a uv-enabled project
+This is a [uv](https://docs.astral.sh/uv/)-enabled project.
 
 ## Project admins
 
