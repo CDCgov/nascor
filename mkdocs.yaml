@@ -1,0 +1,42 @@
+site_name: nascor
+
+nav:
+  - index.md
+  - api.md
+
+repo_url: https://github.com/CDCgov/nascor
+repo_name: repo
+
+# advanced configuration ------------------------------------------------------
+theme:
+  name: "material"
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # dark/light mode toggle
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            # see <https://mkdocstrings.github.io/python/usage/> for options
+            show_root_heading: true
+            show_object_full_path: true
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
