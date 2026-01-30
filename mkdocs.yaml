@@ -28,7 +28,6 @@ plugins:
       handlers:
         python:
           options:
-            # see <https://mkdocstrings.github.io/python/usage/> for options
             show_root_heading: true
             show_object_full_path: true
   - search
